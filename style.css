@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color:black;
+    color: white;
+}
+@media (min-width: 600px){
+    .image{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.main-content{
+    display: block;
+max-width: 1000px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.content h1{
+    color: white;
+    font-weight: bold;
+}
+.content h4{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text{
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.face{
+    padding-right: 40px;
+}
+.inst{
+    padding-right:40px ;
+}
+.twi{
+    padding-right: 40px;
+}
+.letters{
+    display: flex; 
+    justify-content: space-between;
+text-align: left;
+}
+.letter1 h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    color: thistle;
+}
+.letter1 h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.letter2 h2{
+    color: thistle;
+    padding-bottom:20px ;
+}
+.letter2 p{
+    /* letter-spacing: 4px; */
+    font-size: 20px;
+}
+.chat{
+    display: flex;
+    padding-top: 30px;
+/* justify-content: space-between; */
+}
+.chat img{
+    background-color: thistle;
+    /* padding-right: 10px; */
+}
+.chat h3{
+    padding-left: 20px;
+}
+.menu{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* font-weight: bold; */
+}
+.bio{
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+.line{
+justify-content: center;
+}
+.line h1{
+    padding-top: 200px;
+    font-weight: bolder;
+    font-size: 80px;
+    /* color: thistle; */
+}
+.write1 h1{
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: 70px;
+     color: thistle; 
+}
+.write1 img{
+    padding-top: 30px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+.write1 p{
+    font-weight:bold ;
+    font-size: 20px;
+    color: thistle;
+}
+.images{
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    /* justify-content: space-between; */
+}
+.images img{
+height: 50%;
+width: 40%;
+}
+.ig1{
+    padding-right: 3%;
+}
+.ig1:hover{
+    transform: scale(1,1);
+    opacity: .7;
+}
+.image1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.image1 img{
+    height: 40%;
+    width: 40%;
+}
+.ig2{
+    padding-right: 3%;
+}
+.ig2:hover{
+    transform: scale(1,1);
+    opacity: .7;
+}
+.learn{
+    padding-top: 7%;
+    justify-content: center;
+    padding-left: 450px;
+
+}
+.learn h4{
+    border: 1px solid white;
+    color: white;
+    width: 30%;
+    height: 20%;
+    padding: 2%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.learn h4:hover{
+    transform: scale(1,1);
+    opacity: .10; 
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 120px;
+    
+}
+.test{
+    text-align: left;
+    /* margin-left: 5px; */
+}
+.test h4{
+    color: thistle;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+}
+.test p {
+    font-size: 20px;
+    /* padding-left: 10px; */
+}
+.test1{
+    font-size: 19px;
+    text-align: left;
+    /* padding-left: 10px; */
+}
+.infor h2{
+    color: thistle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.cal{
+    display: flex;
+    justify-content: center;
+}
+.cal img{
+    width: 30px;
+    height: 30px;
+}
+.cal p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.ig img{
+    border-radius: 50%;
+    width: 100px;
+}
+.infor h4{
+    font-size: 20px;
+    color: thistle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.infor h5{
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+hr{
+    font-weight: 100px;
+}
+.sec{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: gray;
+   justify-content: center;
+}
+.footer p{
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+.foot h5{
+    padding-right: 10px; 
+}
+.foot h5:hover{
+    opacity: .7;
+    text-decoration: underline;
+}
+.foot h3:hover{
+    opacity: .7;
+    text-decoration: underline;
+}
+.foot h3{
+    font: 15px;
+}
+}
